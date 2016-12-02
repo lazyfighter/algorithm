@@ -4,6 +4,12 @@ import java.util.Arrays;
 
 /**
  * Created by 李平 on 2016/12/2.
+ * ------------冒泡排序-----------
+ *
+ *
+ *
+ *
+ *
  */
 public class BubbleSort {
     public static void sort(int[] array){

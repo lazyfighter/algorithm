@@ -13,6 +13,8 @@ import java.util.Arrays;
  *      然后拿去第三个元素在进行比较，进行插入
  *      插入的时候需要将比元素大的向后移
  *
+ *  分析：
+ *      最坏情况的时间复杂度为O(n^2)
  *  ----------------------------------
  */
 
@@ -37,7 +39,7 @@ public class InsertSort {
     }
 
     public static void main(String[] args) {
-        int[] array = new int[]{3,2,6,4,1,20,15,321,23,51};
+        int[] array = new int[]{3,2,6,4,1,20,-15,-321,23,51};
         sort(array);
     }
 
