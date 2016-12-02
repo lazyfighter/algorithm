@@ -6,7 +6,6 @@ import java.util.Arrays;
  * Created by 李平 on 2016/12/2.
  */
 public class BubbleSort {
-
     public static void sort(int[] array){
         if (array == null || array.length<=0) System.out.println("数组为空，请输入正确数组");
 
@@ -21,12 +20,9 @@ public class BubbleSort {
                 }
             }
         }
-
         System.out.println(Arrays.toString(array));
 
     }
-
-
     public static void main(String[] args) {
         int[] array = new int[]{3,-2,6,4,-1,20,15,321,23,51};
         sort(array);
