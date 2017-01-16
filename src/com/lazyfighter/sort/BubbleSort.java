@@ -1,4 +1,4 @@
-package com.sort;
+package com.lazyfighter.sort;
 
 import java.util.Arrays;
 

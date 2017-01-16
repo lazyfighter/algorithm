@@ -1,4 +1,6 @@
-package com.sort;
+package com.lazyfighter.sort;
+
+import java.util.ArrayList;
 
 /**
  * Created by 李平 on 2016/12/2.
@@ -14,6 +16,8 @@ package com.sort;
 public class DivideSort {
 
     public static void main(String[] args) {
+
+        new ArrayList<Object>().iterator();
         int[] array = new int[]{3,2,6,4,1,20,-15,-321,23,51};
         sort(array);
     }
